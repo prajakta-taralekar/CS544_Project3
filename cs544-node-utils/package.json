@@ -1,0 +1,16 @@
+{
+  "name": "cs544-node-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "syntax-check": "shopt -s globstar; for f in **/*.mjs; do node -c $f; done;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cs544-js-utils": "file:../cs544-js-utils"
+  }
+}
